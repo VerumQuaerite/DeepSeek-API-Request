@@ -26,7 +26,7 @@ async fn main() -> Result<(), Error> {
     let url = "https://api.deepseek.com/v1/completions";
 
     let request = DeepSeekRequest {
-        prompt: "Explain Rust in simple terms.".to_string(),
+        prompt: "Your Promt".to_string(),
         max_tokens: 100,
         temperature: 0.7,
     };
